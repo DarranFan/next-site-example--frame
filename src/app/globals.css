@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* RTL 语言字体：只在 lang=ar 时生效，其他语言不加载此字体 */
+:lang(ar) {
+  font-family: var(--font-noto-arabic), sans-serif;
+}
